@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5AED7F221AF9AA0071691D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED7E221AF9AA0071691D /* AppDelegate.swift */; };
+		7E5AED81221AF9AA0071691D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED80221AF9AA0071691D /* ViewController.swift */; };
+		7E5AED84221AF9AA0071691D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED82221AF9AA0071691D /* Main.storyboard */; };
+		7E5AED86221AF9AE0071691D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED85221AF9AE0071691D /* Assets.xcassets */; };
+		7E5AED89221AF9AE0071691D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED87221AF9AE0071691D /* LaunchScreen.storyboard */; };
+		7E5AED94221AF9AE0071691D /* MuviNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED93221AF9AE0071691D /* MuviNowTests.swift */; };
+		7E5AED9F221AF9AE0071691D /* MuviNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED9E221AF9AE0071691D /* MuviNowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5AED90221AF9AE0071691D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5AED73221AF9AA0071691D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5AED7A221AF9AA0071691D;
+			remoteInfo = MuviNow;
+		};
+		7E5AED9B221AF9AE0071691D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5AED73221AF9AA0071691D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5AED7A221AF9AA0071691D;
+			remoteInfo = MuviNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5AED7B221AF9AA0071691D /* MuviNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuviNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5AED7E221AF9AA0071691D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E5AED80221AF9AA0071691D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E5AED83221AF9AA0071691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E5AED85221AF9AE0071691D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E5AED88221AF9AE0071691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E5AED8A221AF9AE0071691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5AED8F221AF9AE0071691D /* MuviNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuviNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5AED93221AF9AE0071691D /* MuviNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviNowTests.swift; sourceTree = "<group>"; };
+		7E5AED95221AF9AE0071691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5AED9A221AF9AE0071691D /* MuviNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuviNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5AED9E221AF9AE0071691D /* MuviNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviNowUITests.swift; sourceTree = "<group>"; };
+		7E5AEDA0221AF9AE0071691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5AED78221AF9AA0071691D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED8C221AF9AE0071691D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED97221AF9AE0071691D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5AED72221AF9AA0071691D = {
+			isa = PBXGroup;
+			children = (
+				7E5AED7D221AF9AA0071691D /* MuviNow */,
+				7E5AED92221AF9AE0071691D /* MuviNowTests */,
+				7E5AED9D221AF9AE0071691D /* MuviNowUITests */,
+				7E5AED7C221AF9AA0071691D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5AED7C221AF9AA0071691D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AED7B221AF9AA0071691D /* MuviNow.app */,
+				7E5AED8F221AF9AE0071691D /* MuviNowTests.xctest */,
+				7E5AED9A221AF9AE0071691D /* MuviNowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E5AED7D221AF9AA0071691D /* MuviNow */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AED7E221AF9AA0071691D /* AppDelegate.swift */,
+				7E5AED80221AF9AA0071691D /* ViewController.swift */,
+				7E5AED82221AF9AA0071691D /* Main.storyboard */,
+				7E5AED85221AF9AE0071691D /* Assets.xcassets */,
+				7E5AED87221AF9AE0071691D /* LaunchScreen.storyboard */,
+				7E5AED8A221AF9AE0071691D /* Info.plist */,
+			);
+			path = MuviNow;
+			sourceTree = "<group>";
+		};
+		7E5AED92221AF9AE0071691D /* MuviNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AED93221AF9AE0071691D /* MuviNowTests.swift */,
+				7E5AED95221AF9AE0071691D /* Info.plist */,
+			);
+			path = MuviNowTests;
+			sourceTree = "<group>";
+		};
+		7E5AED9D221AF9AE0071691D /* MuviNowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AED9E221AF9AE0071691D /* MuviNowUITests.swift */,
+				7E5AEDA0221AF9AE0071691D /* Info.plist */,
+			);
+			path = MuviNowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5AED7A221AF9AA0071691D /* MuviNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AEDA3221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNow" */;
+			buildPhases = (
+				7E5AED77221AF9AA0071691D /* Sources */,
+				7E5AED78221AF9AA0071691D /* Frameworks */,
+				7E5AED79221AF9AA0071691D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuviNow;
+			productName = MuviNow;
+			productReference = 7E5AED7B221AF9AA0071691D /* MuviNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E5AED8E221AF9AE0071691D /* MuviNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AEDA6221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowTests" */;
+			buildPhases = (
+				7E5AED8B221AF9AE0071691D /* Sources */,
+				7E5AED8C221AF9AE0071691D /* Frameworks */,
+				7E5AED8D221AF9AE0071691D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5AED91221AF9AE0071691D /* PBXTargetDependency */,
+			);
+			name = MuviNowTests;
+			productName = MuviNowTests;
+			productReference = 7E5AED8F221AF9AE0071691D /* MuviNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E5AED99221AF9AE0071691D /* MuviNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AEDA9221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowUITests" */;
+			buildPhases = (
+				7E5AED96221AF9AE0071691D /* Sources */,
+				7E5AED97221AF9AE0071691D /* Frameworks */,
+				7E5AED98221AF9AE0071691D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5AED9C221AF9AE0071691D /* PBXTargetDependency */,
+			);
+			name = MuviNowUITests;
+			productName = MuviNowUITests;
+			productReference = 7E5AED9A221AF9AE0071691D /* MuviNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E5AED73221AF9AA0071691D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Bikranta;
+				TargetAttributes = {
+					7E5AED7A221AF9AA0071691D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7E5AED8E221AF9AE0071691D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7E5AED7A221AF9AA0071691D;
+					};
+					7E5AED99221AF9AE0071691D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7E5AED7A221AF9AA0071691D;
+					};
+				};
+			};
+			buildConfigurationList = 7E5AED76221AF9AA0071691D /* Build configuration list for PBXProject "MuviNow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E5AED72221AF9AA0071691D;
+			productRefGroup = 7E5AED7C221AF9AA0071691D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E5AED7A221AF9AA0071691D /* MuviNow */,
+				7E5AED8E221AF9AE0071691D /* MuviNowTests */,
+				7E5AED99221AF9AE0071691D /* MuviNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5AED79221AF9AA0071691D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AED89221AF9AE0071691D /* LaunchScreen.storyboard in Resources */,
+				7E5AED86221AF9AE0071691D /* Assets.xcassets in Resources */,
+				7E5AED84221AF9AA0071691D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED8D221AF9AE0071691D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED98221AF9AE0071691D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5AED77221AF9AA0071691D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AED81221AF9AA0071691D /* ViewController.swift in Sources */,
+				7E5AED7F221AF9AA0071691D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED8B221AF9AE0071691D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AED94221AF9AE0071691D /* MuviNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5AED96221AF9AE0071691D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5AED9F221AF9AE0071691D /* MuviNowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5AED91221AF9AE0071691D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5AED7A221AF9AA0071691D /* MuviNow */;
+			targetProxy = 7E5AED90221AF9AE0071691D /* PBXContainerItemProxy */;
+		};
+		7E5AED9C221AF9AE0071691D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5AED7A221AF9AA0071691D /* MuviNow */;
+			targetProxy = 7E5AED9B221AF9AE0071691D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E5AED82221AF9AA0071691D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5AED83221AF9AA0071691D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E5AED87221AF9AE0071691D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5AED88221AF9AE0071691D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E5AEDA1221AF9AE0071691D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E5AEDA2221AF9AE0071691D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E5AEDA4221AF9AE0071691D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5AEDA5221AF9AE0071691D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E5AEDA7221AF9AE0071691D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuviNow.app/MuviNow";
+			};
+			name = Debug;
+		};
+		7E5AEDA8221AF9AE0071691D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuviNow.app/MuviNow";
+			};
+			name = Release;
+		};
+		7E5AEDAA221AF9AE0071691D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuviNow;
+			};
+			name = Debug;
+		};
+		7E5AEDAB221AF9AE0071691D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG6MN5PT4S;
+				INFOPLIST_FILE = MuviNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bik.MuviNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuviNow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5AED76221AF9AA0071691D /* Build configuration list for PBXProject "MuviNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AEDA1221AF9AE0071691D /* Debug */,
+				7E5AEDA2221AF9AE0071691D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5AEDA3221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AEDA4221AF9AE0071691D /* Debug */,
+				7E5AEDA5221AF9AE0071691D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5AEDA6221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AEDA7221AF9AE0071691D /* Debug */,
+				7E5AEDA8221AF9AE0071691D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5AEDA9221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AEDAA221AF9AE0071691D /* Debug */,
+				7E5AEDAB221AF9AE0071691D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E5AED73221AF9AA0071691D /* Project object */;
+}
