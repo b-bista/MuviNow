@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1830ED9934B1129AD6A90D25 /* Pods_MuviNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401E186583A2A238BDA4D42D /* Pods_MuviNowUITests.framework */; };
 		7E5AED7F221AF9AA0071691D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED7E221AF9AA0071691D /* AppDelegate.swift */; };
-		7E5AED81221AF9AA0071691D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED80221AF9AA0071691D /* ViewController.swift */; };
 		7E5AED84221AF9AA0071691D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED82221AF9AA0071691D /* Main.storyboard */; };
 		7E5AED86221AF9AE0071691D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED85221AF9AE0071691D /* Assets.xcassets */; };
 		7E5AED89221AF9AE0071691D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AED87221AF9AE0071691D /* LaunchScreen.storyboard */; };
 		7E5AED94221AF9AE0071691D /* MuviNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED93221AF9AE0071691D /* MuviNowTests.swift */; };
 		7E5AED9F221AF9AE0071691D /* MuviNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AED9E221AF9AE0071691D /* MuviNowUITests.swift */; };
+		7E5AEDAD221AFB070071691D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AEDAC221AFB070071691D /* MoviesViewController.swift */; };
+		7E5AEDAF221B13AF0071691D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AEDAE221B13AF0071691D /* MovieCell.swift */; };
+		B32B5BB75914CC850C872714 /* Pods_MuviNowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BC054584017C2B6071D507 /* Pods_MuviNowTests.framework */; };
+		E743F97A13E681E1AB275B5A /* Pods_MuviNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C83BC030E0BCE65E013C5D /* Pods_MuviNow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C83BC030E0BCE65E013C5D /* Pods_MuviNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuviNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401E186583A2A238BDA4D42D /* Pods_MuviNowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuviNowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4494E5EFA3C96A8B618775 /* Pods-MuviNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNowUITests.release.xcconfig"; path = "Target Support Files/Pods-MuviNowUITests/Pods-MuviNowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C97B32EED6C6A00D7C18145 /* Pods-MuviNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNowTests.release.xcconfig"; path = "Target Support Files/Pods-MuviNowTests/Pods-MuviNowTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E5AED7B221AF9AA0071691D /* MuviNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuviNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5AED7E221AF9AA0071691D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E5AED80221AF9AA0071691D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E5AED83221AF9AA0071691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E5AED85221AF9AE0071691D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5AED88221AF9AE0071691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		7E5AED9A221AF9AE0071691D /* MuviNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuviNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5AED9E221AF9AE0071691D /* MuviNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviNowUITests.swift; sourceTree = "<group>"; };
 		7E5AEDA0221AF9AE0071691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5AEDAC221AFB070071691D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		7E5AEDAE221B13AF0071691D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		924DEB620825D5122E51B937 /* Pods-MuviNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNow.debug.xcconfig"; path = "Target Support Files/Pods-MuviNow/Pods-MuviNow.debug.xcconfig"; sourceTree = "<group>"; };
+		93BC054584017C2B6071D507 /* Pods_MuviNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuviNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4ED702933FC461C46D117C /* Pods-MuviNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuviNowUITests/Pods-MuviNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FAEB38AE71E7CF6C3ED095 /* Pods-MuviNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNowTests.debug.xcconfig"; path = "Target Support Files/Pods-MuviNowTests/Pods-MuviNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2CE649F859B4FDB2A9BB73 /* Pods-MuviNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuviNow.release.xcconfig"; path = "Target Support Files/Pods-MuviNow/Pods-MuviNow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E743F97A13E681E1AB275B5A /* Pods_MuviNow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32B5BB75914CC850C872714 /* Pods_MuviNowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1830ED9934B1129AD6A90D25 /* Pods_MuviNowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338CEE60FDA4823237B7AA2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C83BC030E0BCE65E013C5D /* Pods_MuviNow.framework */,
+				93BC054584017C2B6071D507 /* Pods_MuviNowTests.framework */,
+				401E186583A2A238BDA4D42D /* Pods_MuviNowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E5AED72221AF9AA0071691D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				7E5AED92221AF9AE0071691D /* MuviNowTests */,
 				7E5AED9D221AF9AE0071691D /* MuviNowUITests */,
 				7E5AED7C221AF9AA0071691D /* Products */,
+				887076FE36B0C88C6F2D913E /* Pods */,
+				338CEE60FDA4823237B7AA2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				7E5AED7E221AF9AA0071691D /* AppDelegate.swift */,
-				7E5AED80221AF9AA0071691D /* ViewController.swift */,
 				7E5AED82221AF9AA0071691D /* Main.storyboard */,
+				7E5AEDAE221B13AF0071691D /* MovieCell.swift */,
 				7E5AED85221AF9AE0071691D /* Assets.xcassets */,
 				7E5AED87221AF9AE0071691D /* LaunchScreen.storyboard */,
 				7E5AED8A221AF9AE0071691D /* Info.plist */,
+				7E5AEDAC221AFB070071691D /* MoviesViewController.swift */,
 			);
 			path = MuviNow;
 			sourceTree = "<group>";
@@ -125,6 +155,20 @@
 			path = MuviNowUITests;
 			sourceTree = "<group>";
 		};
+		887076FE36B0C88C6F2D913E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				924DEB620825D5122E51B937 /* Pods-MuviNow.debug.xcconfig */,
+				DB2CE649F859B4FDB2A9BB73 /* Pods-MuviNow.release.xcconfig */,
+				D8FAEB38AE71E7CF6C3ED095 /* Pods-MuviNowTests.debug.xcconfig */,
+				7C97B32EED6C6A00D7C18145 /* Pods-MuviNowTests.release.xcconfig */,
+				CA4ED702933FC461C46D117C /* Pods-MuviNowUITests.debug.xcconfig */,
+				4C4494E5EFA3C96A8B618775 /* Pods-MuviNowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5AEDA3221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNow" */;
 			buildPhases = (
+				6B65575FFC3D95328C7547E9 /* [CP] Check Pods Manifest.lock */,
 				7E5AED77221AF9AA0071691D /* Sources */,
 				7E5AED78221AF9AA0071691D /* Frameworks */,
 				7E5AED79221AF9AA0071691D /* Resources */,
+				916143D34FCF0A23AA31F9AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5AEDA6221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowTests" */;
 			buildPhases = (
+				1EA7B3567135807D86E4B33C /* [CP] Check Pods Manifest.lock */,
 				7E5AED8B221AF9AE0071691D /* Sources */,
 				7E5AED8C221AF9AE0071691D /* Frameworks */,
 				7E5AED8D221AF9AE0071691D /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5AEDA9221AF9AE0071691D /* Build configuration list for PBXNativeTarget "MuviNowUITests" */;
 			buildPhases = (
+				737981BD87750C6A3C540792 /* [CP] Check Pods Manifest.lock */,
 				7E5AED96221AF9AE0071691D /* Sources */,
 				7E5AED97221AF9AE0071691D /* Frameworks */,
 				7E5AED98221AF9AE0071691D /* Resources */,
@@ -251,13 +299,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EA7B3567135807D86E4B33C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuviNowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B65575FFC3D95328C7547E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuviNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737981BD87750C6A3C540792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuviNowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916143D34FCF0A23AA31F9AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuviNow/Pods-MuviNow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuviNow/Pods-MuviNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E5AED77221AF9AA0071691D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5AED81221AF9AA0071691D /* ViewController.swift in Sources */,
 				7E5AED7F221AF9AA0071691D /* AppDelegate.swift in Sources */,
+				7E5AEDAD221AFB070071691D /* MoviesViewController.swift in Sources */,
+				7E5AEDAF221B13AF0071691D /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +572,7 @@
 		};
 		7E5AEDA4221AF9AE0071691D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924DEB620825D5122E51B937 /* Pods-MuviNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +591,7 @@
 		};
 		7E5AEDA5221AF9AE0071691D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2CE649F859B4FDB2A9BB73 /* Pods-MuviNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +610,7 @@
 		};
 		7E5AEDA7221AF9AE0071691D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FAEB38AE71E7CF6C3ED095 /* Pods-MuviNowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +632,7 @@
 		};
 		7E5AEDA8221AF9AE0071691D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C97B32EED6C6A00D7C18145 /* Pods-MuviNowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +654,7 @@
 		};
 		7E5AEDAA221AF9AE0071691D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4ED702933FC461C46D117C /* Pods-MuviNowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +675,7 @@
 		};
 		7E5AEDAB221AF9AE0071691D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4494E5EFA3C96A8B618775 /* Pods-MuviNowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
